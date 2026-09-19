@@ -10,7 +10,9 @@ We construct HistoryCR from 29,986 PRs, 128,897 commits, and 592,973 code change
 
 ## Dataset and Source Repositories
 
-[Download HistoryCR](https://drive.google.com/file/d/1Cn_6mISIHd3QN-U3cFdjUK_vUuH8zjlQ/view?usp=sharing). The dataset preserves three levels of GitHub pull-request data: PR identifiers, dates, titles, and descriptions; commit SHAs, dates, messages, filenames, and code changes; and inline review comments associated with reviewed diff hunks. For each reviewed change, HERO uses preceding commits to the same file within the same PR as historical context. These records support the RNP and CRCG tasks.
+[Download the raw HistoryCR data](https://drive.google.com/drive/folders/1JpyjVi65v_A1Y7vUJmvALZDEBYLlWPvG?usp=sharing). The raw data preserves three levels of GitHub pull-request information: PR identifiers, dates, titles, and descriptions; commit SHAs, dates, messages, filenames, and code changes; and inline review comments associated with reviewed diff hunks. For each reviewed change, HERO uses preceding commits to the same file within the same PR as historical context. These records support the RNP and CRCG tasks.
+
+[Download the processed dataset](https://drive.google.com/file/d/1Cn_6mISIHd3QN-U3cFdjUK_vUuH8zjlQ/view?usp=sharing) for the prepared training, validation, and test data used by the RNP and CRCG experiments.
 
 HistoryCR was collected from 41 Java and 46 C++ GitHub repositories with substantial review activity. The source repositories are listed below.
 
